@@ -17,10 +17,8 @@ public class B1158 {
 		
 		int N = Integer.parseInt(st.nextToken());
 		int K = Integer.parseInt(st.nextToken());
-		int[] a = new int[N];
 
 		Queue<Integer> q = new LinkedList<>();// 넣어논 큐
-		// Queue<int[]> q2 = new LinkedList<>();// 버려진 큐
 
 		for (int i = 1; i <= N; i++) {
 			q.offer(i);
